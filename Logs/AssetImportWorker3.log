@@ -1,0 +1,2172 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 7599 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Remi/Car racing game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57102
+Successfully changed project path to: C:/Users/Remi/Car racing game
+C:/Users/Remi/Car racing game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40668]  Target information:
+
+Player connection [40668]  * "[IP] 192.168.28.90 [Port] 0 [Flags] 2 [Guid] 3753783440 [EditorId] 3753783440 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IH0PIRO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [40668] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [40668] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 40.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Remi/Car racing game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011754 seconds.
+- Loaded All Assemblies, in  0.547 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.303 seconds
+Domain Reload Profiling: 848ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (253ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.822 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.929 seconds
+Domain Reload Profiling: 1751ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (431ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 8.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (259.9 KB). Loaded Objects now: 3644.
+Memory consumption went from 138.2 MB to 138.0 MB.
+Total: 8.460900 ms (FindLiveObjects: 0.704900 ms CreateObjectMapping: 0.217800 ms MarkObjects: 7.142300 ms  DeleteObjects: 0.391900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3128133.773859 seconds.
+  path: Assets/GrassFlowers/Textures/Ground/Grass01_BigUV.png
+  artifactKey: Guid(38bb15d6b378aff46b461e248592d1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/Ground/Grass01_BigUV.png using Guid(38bb15d6b378aff46b461e248592d1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c6bb2dcccba0816f48f56c2f395bee6') in 0.256526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower05.tga
+  artifactKey: Guid(e3b33de953074bc4a88d9487f19c1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower05.tga using Guid(e3b33de953074bc4a88d9487f19c1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00926ef3cd4f8ece17027afe7e617843') in 0.039744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower06.tga
+  artifactKey: Guid(b3d0250e4b7a1ac4abe98a38d34d2048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower06.tga using Guid(b3d0250e4b7a1ac4abe98a38d34d2048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8fe2f9827ae0d8ae1fb0506442272ec5') in 0.032602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga
+  artifactKey: Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga using Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a583f3cca2a6fbff6b86c45f8dbb6261') in 0.035907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grass02.tga
+  artifactKey: Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grass02.tga using Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '63f2260fcf9ab05a70ad8bf850d6b722') in 0.034476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1301.141650 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/ArchBase24m.FBX
+  artifactKey: Guid(ef07c6162b725134e908d3751e05da75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/ArchBase24m.FBX using Guid(ef07c6162b725134e908d3751e05da75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fd4649c29b29bffa635ee40d85d0527') in 0.675999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase5-18w-5l-5d.FBX
+  artifactKey: Guid(23ffacf305c01d340b21018faf03987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase5-18w-5l-5d.FBX using Guid(23ffacf305c01d340b21018faf03987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd992fc1b4e25f355ffa08a42d698a74e') in 0.044733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase-39w-5l-1d.FBX
+  artifactKey: Guid(503bf4e81b3142c41acb32c5a1c61665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase-39w-5l-1d.FBX using Guid(503bf4e81b3142c41acb32c5a1c61665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd7dd1940c3c57137f1ef315d461d329d') in 0.046295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RoadArchitect/Mesh/BarrierKRailCapExtendedS.fbx
+  artifactKey: Guid(a9eac98cd8060994787f9c3a9138a803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/BarrierKRailCapExtendedS.fbx using Guid(a9eac98cd8060994787f9c3a9138a803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7337573b000fc716f535d40559a92630') in 0.058243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase6On2Lanes.FBX
+  artifactKey: Guid(7298337b91ac09c43a08e5ab5add18d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase6On2Lanes.FBX using Guid(7298337b91ac09c43a08e5ab5add18d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8430a0ae05abc2f84713cd23e42af5d1') in 0.054424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RoadArchitect/Mesh/Interactive/Atten.FBX
+  artifactKey: Guid(f97476437e35a5141adb9235ec19d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Interactive/Atten.FBX using Guid(f97476437e35a5141adb9235ec19d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd37b6976194403c5aa0443f5720e35d2') in 0.046358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RoadArchitect/Mesh/BarrierKRail.fbx
+  artifactKey: Guid(5d3f9cd50f0a9f040bfebb97c73e2f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/BarrierKRail.fbx using Guid(5d3f9cd50f0a9f040bfebb97c73e2f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97dfa44d415f20e89c7e2793574b90ae') in 0.040996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase4-28w-5l-5d.FBX
+  artifactKey: Guid(723fd9f809171bc4884d600f6bab18f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase4-28w-5l-5d.FBX using Guid(723fd9f809171bc4884d600f6bab18f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69a99c7ae2b545edd96950c650281b97') in 0.037306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase-29w-5l-1d.FBX
+  artifactKey: Guid(0dc01bbde0614d94b810ac220ec15663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase-29w-5l-1d.FBX using Guid(0dc01bbde0614d94b810ac220ec15663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '003c79897bd720389e8c1985e8343b53') in 0.042059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase4-18w-5l-5d.FBX
+  artifactKey: Guid(57e81e4556a4a43439f954a58f799091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase4-18w-5l-5d.FBX using Guid(57e81e4556a4a43439f954a58f799091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64904ca29628aabe4f92e358dc0ebb47') in 0.038631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/RoadArchitect/Mesh/BarrierKRailCapExtendedE.fbx
+  artifactKey: Guid(04de46616f705ce4fb62396787f764bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/BarrierKRailCapExtendedE.fbx using Guid(04de46616f705ce4fb62396787f764bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb4f4ada5660859e93ca9c0a6a4351e3') in 0.050710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RoadArchitect/Prefabs/BarrierKRailCap.prefab
+  artifactKey: Guid(7b3613c72f31a784d89b1c0339a77c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Prefabs/BarrierKRailCap.prefab using Guid(7b3613c72f31a784d89b1c0339a77c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '99c2a757fe9fde20b6d3d7cf8a870c74') in 0.006339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase-48w-5l-1d.FBX
+  artifactKey: Guid(5b5033a8cba45e84d90ddce388d76fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase-48w-5l-1d.FBX using Guid(5b5033a8cba45e84d90ddce388d76fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f1c6aa9ff0229b5bc660096419ff5fb4') in 0.042214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RoadArchitect/Prefabs/Interactive/AttenStatic.prefab
+  artifactKey: Guid(f7547346d0e3b3f49a07fffbd73895fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Prefabs/Interactive/AttenStatic.prefab using Guid(f7547346d0e3b3f49a07fffbd73895fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ac2e43ac92f4b76412b00106bcfcc14') in 0.056067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase-40w-5l-1d.FBX
+  artifactKey: Guid(2f5e59a150f50ba4b85ee82686084e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase-40w-5l-1d.FBX using Guid(2f5e59a150f50ba4b85ee82686084e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bd54937fd8d2d8ef33664698866bfe5') in 0.042350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase-28w-5l-1d.FBX
+  artifactKey: Guid(2a5b7171e39a93242877377027c63640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase-28w-5l-1d.FBX using Guid(2a5b7171e39a93242877377027c63640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c34754490907431a0fb671fac26a7ba') in 0.044732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase6On4Lanes40M.FBX
+  artifactKey: Guid(78e3eeccbc1414a4eba5c51b99520bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase6On4Lanes40M.FBX using Guid(78e3eeccbc1414a4eba5c51b99520bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '072b88cec3fcbe0d51756ea2c0275268') in 0.045208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase-38w-5l-1d.FBX
+  artifactKey: Guid(ccb5ad9c92b864b4a893e18f2576fc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase-38w-5l-1d.FBX using Guid(ccb5ad9c92b864b4a893e18f2576fc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bbc7b8e38612742cd463aba1bd6a5525') in 0.050732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/RoadArchitect/Mesh/Bridges/BridgeBase-18w-5l-1d.FBX
+  artifactKey: Guid(869ccaf77e0b2154e97b0a6fe5d78f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Bridges/BridgeBase-18w-5l-1d.FBX using Guid(869ccaf77e0b2154e97b0a6fe5d78f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a5526ddcd9576270d4cdd395e0b29c6e') in 0.051828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.491564 seconds.
+  path: Assets/RoadArchitect/Prefabs/RumbleStrip.prefab
+  artifactKey: Guid(4c1f593789149ab49aaa5a36d36c7b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Prefabs/RumbleStrip.prefab using Guid(4c1f593789149ab49aaa5a36d36c7b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d1df738ce8da5536a4f7b004fedbce2') in 0.467041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/RoadArchitect/Prefabs/Interactive/TrafficConeStatic.prefab
+  artifactKey: Guid(836c546e71f27ef43a5cf20bdaa63ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Prefabs/Interactive/TrafficConeStatic.prefab using Guid(836c546e71f27ef43a5cf20bdaa63ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e23eca686bcd86f3466c8e995767289') in 0.650845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/RoadArchitect/Prefabs/Signs/TrafficLightMain.prefab
+  artifactKey: Guid(d36abdeb957e1ea41ac4abf66580fbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Prefabs/Signs/TrafficLightMain.prefab using Guid(d36abdeb957e1ea41ac4abf66580fbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f81be4c962fa16e9e8fb30468a999921') in 0.733123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/RoadArchitect/Mesh/Signs/TrafficLight.fbx
+  artifactKey: Guid(03821f42d9a93d34e85f60f448147567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Mesh/Signs/TrafficLight.fbx using Guid(03821f42d9a93d34e85f60f448147567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38499792370a11a2b63acb8dedd8ad0e') in 0.048401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/RoadArchitect/Prefabs/Signs/TrafficLight.prefab
+  artifactKey: Guid(c08f5edda85dafa4592b4df24fd341e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Prefabs/Signs/TrafficLight.prefab using Guid(c08f5edda85dafa4592b4df24fd341e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5958eb687946ef672d7c54fdd085ddcd') in 0.273621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RoadArchitect/Prefabs/Signs/TrafficLightLeftYield.prefab
+  artifactKey: Guid(7c94b9f7651a9c94694ab39429fa9e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Prefabs/Signs/TrafficLightLeftYield.prefab using Guid(7c94b9f7651a9c94694ab39429fa9e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a99419465ff212339b6e7f584c3d69f') in 0.049785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.683 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.383 seconds
+Domain Reload Profiling: 7065ms
+	BeginReloadAssembly (2914ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (178ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (365ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1593ms)
+		LoadAssemblies (1831ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (48ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (666ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (511ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (11.6 MB). Loaded Objects now: 3669.
+Memory consumption went from 152.3 MB to 140.6 MB.
+Total: 13.521200 ms (FindLiveObjects: 0.825800 ms CreateObjectMapping: 0.316500 ms MarkObjects: 10.211500 ms  DeleteObjects: 2.157800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: b4e3244d52e60dc6e64e6486a1a63e10 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 29591556036da59d0a1ca48a315092a5 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: 38149b3ead3d3b20f6b4821159ab4219 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: 939c570d0a7144347aa868139f680dbb -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 8d1e766f395b538e6245d8e82bea01bd -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 936b9a9dca3adab2db340638214a0222 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: 78617591c02268a0ff549bc6d927dfca -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 6f68504aa2d25f659106fb284a0b3b0d -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: dc10a6087d37dafaccc910cdfe84e8a5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: c680f6c166e7aa922db2d01f7f0b8b2b -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.915 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.964 seconds
+Domain Reload Profiling: 2876ms
+	BeginReloadAssembly (333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (661ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1965ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (647ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (11.6 MB). Loaded Objects now: 3672.
+Memory consumption went from 152.3 MB to 140.6 MB.
+Total: 5.547900 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.152800 ms MarkObjects: 3.723500 ms  DeleteObjects: 1.254800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 407.336482 seconds.
+  path: Assets/OakTree/Big Oak Tree FREE/Prefabs/OakBigTree01_pr.prefab
+  artifactKey: Guid(d95a6c783e91fea4d8096b66eb134ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OakTree/Big Oak Tree FREE/Prefabs/OakBigTree01_pr.prefab using Guid(d95a6c783e91fea4d8096b66eb134ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3da481d73b97a80b2db2267d50ee4ad3') in 4.461279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.974 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.444 seconds
+Domain Reload Profiling: 3421ms
+	BeginReloadAssembly (361ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (118ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (621ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (858ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (588ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3677.
+Memory consumption went from 152.4 MB to 145.8 MB.
+Total: 7.725700 ms (FindLiveObjects: 1.042700 ms CreateObjectMapping: 0.212000 ms MarkObjects: 5.179900 ms  DeleteObjects: 1.285600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.813 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.355 seconds
+Domain Reload Profiling: 3166ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (571ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2356ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (837ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (619ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 8.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3680.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 9.918400 ms (FindLiveObjects: 0.846700 ms CreateObjectMapping: 0.331000 ms MarkObjects: 7.457000 ms  DeleteObjects: 1.281100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.742 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.662 seconds
+Domain Reload Profiling: 2402ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (507ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1663ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (818ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (579ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 8.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3683.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 9.660400 ms (FindLiveObjects: 0.804500 ms CreateObjectMapping: 0.263500 ms MarkObjects: 7.166500 ms  DeleteObjects: 1.422800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.725 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.534 seconds
+Domain Reload Profiling: 2257ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (773ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3686.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 7.153300 ms (FindLiveObjects: 0.433200 ms CreateObjectMapping: 0.238100 ms MarkObjects: 5.015900 ms  DeleteObjects: 1.463500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.775 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.112 seconds
+Domain Reload Profiling: 2884ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (415ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2113ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (834ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (622ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3689.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 6.145700 ms (FindLiveObjects: 0.479600 ms CreateObjectMapping: 0.209500 ms MarkObjects: 4.454700 ms  DeleteObjects: 0.999500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.694 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.596 seconds
+Domain Reload Profiling: 2287ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (455ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1597ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (804ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (585ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3692.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 8.990000 ms (FindLiveObjects: 0.845800 ms CreateObjectMapping: 0.290100 ms MarkObjects: 6.424600 ms  DeleteObjects: 1.426200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.732 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.607 seconds
+Domain Reload Profiling: 2336ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (480ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (831ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3695.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 8.442400 ms (FindLiveObjects: 0.534500 ms CreateObjectMapping: 0.173900 ms MarkObjects: 6.373000 ms  DeleteObjects: 1.358000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.685 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.502 seconds
+Domain Reload Profiling: 2185ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1503ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (754ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (550ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 8.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3698.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 6.364500 ms (FindLiveObjects: 0.582100 ms CreateObjectMapping: 0.197400 ms MarkObjects: 4.578700 ms  DeleteObjects: 1.002100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.707 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.599 seconds
+Domain Reload Profiling: 2303ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (809ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (570ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 7.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3701.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 6.265200 ms (FindLiveObjects: 0.510000 ms CreateObjectMapping: 0.167100 ms MarkObjects: 4.076000 ms  DeleteObjects: 1.509500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.701 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.548 seconds
+Domain Reload Profiling: 2246ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (778ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (570ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 8.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3704.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 6.946300 ms (FindLiveObjects: 0.513300 ms CreateObjectMapping: 0.178700 ms MarkObjects: 5.205100 ms  DeleteObjects: 1.046900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.193 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 18.291 seconds
+Domain Reload Profiling: 23496ms
+	BeginReloadAssembly (729ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (236ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (4312ms)
+		LoadAssemblies (4593ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (18292ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1152ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (387ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 10.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3707.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 7.725400 ms (FindLiveObjects: 0.424800 ms CreateObjectMapping: 0.164500 ms MarkObjects: 5.994400 ms  DeleteObjects: 1.137800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.873 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.903 seconds
+Domain Reload Profiling: 4773ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (581ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3903ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (1166ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 9.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3710.
+Memory consumption went from 151.9 MB to 145.3 MB.
+Total: 6.648400 ms (FindLiveObjects: 0.439300 ms CreateObjectMapping: 0.161700 ms MarkObjects: 4.838400 ms  DeleteObjects: 1.206100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.798 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.615 seconds
+Domain Reload Profiling: 3410ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (538ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (895ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (636ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3713.
+Memory consumption went from 151.9 MB to 145.4 MB.
+Total: 7.596800 ms (FindLiveObjects: 0.417900 ms CreateObjectMapping: 0.146900 ms MarkObjects: 5.198800 ms  DeleteObjects: 1.829600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.800 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.069 seconds
+Domain Reload Profiling: 2866ms
+	BeginReloadAssembly (292ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (547ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2069ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (734ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3716.
+Memory consumption went from 151.9 MB to 145.4 MB.
+Total: 5.931900 ms (FindLiveObjects: 0.534300 ms CreateObjectMapping: 0.197800 ms MarkObjects: 4.236100 ms  DeleteObjects: 0.961400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.336 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.417 seconds
+Domain Reload Profiling: 3755ms
+	BeginReloadAssembly (433ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (765ms)
+		LoadAssemblies (934ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (911ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (664ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3719.
+Memory consumption went from 151.9 MB to 145.4 MB.
+Total: 9.577100 ms (FindLiveObjects: 0.478400 ms CreateObjectMapping: 0.156400 ms MarkObjects: 7.296600 ms  DeleteObjects: 1.638600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.753 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.608 seconds
+Domain Reload Profiling: 2358ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (518ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (809ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (602ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3722.
+Memory consumption went from 152.0 MB to 145.4 MB.
+Total: 6.520400 ms (FindLiveObjects: 0.550800 ms CreateObjectMapping: 0.185000 ms MarkObjects: 4.789500 ms  DeleteObjects: 0.993000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Caller must complete domain reload
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.097 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/OakTree/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.997 seconds
+Domain Reload Profiling: 4093ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (639ms)
+		LoadAssemblies (773ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2999ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (992ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (729ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 8.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (6.6 MB). Loaded Objects now: 3725.
+Memory consumption went from 151.9 MB to 145.4 MB.
+Total: 30.993900 ms (FindLiveObjects: 0.851300 ms CreateObjectMapping: 0.899300 ms MarkObjects: 20.125500 ms  DeleteObjects: 9.113800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerStyle.cs: 005d3b8cea34c00053f5af67d9448201 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderGUI.cs: 228c3375a793260cd1561e55e9f833c9 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ShaderDrawers.cs: e9ef83edf5c77162c85faaf856034d36 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobalEditor.cs: f0863ea9bf8ad649b070c80fc0f2a448 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal.Editor: 48de36576911d35e3656e84ec0782b10 -> 
+  custom:scripting/precompiled-assembly-types:ALP8310_ControllerGlobal: 734e2ff4eec54758b8c58cc799514283 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_ControllerGlobal.cs: b3cc0db213f2bf9791cdab5711bb9ba7 -> 
+  custom:scripting/monoscript/fileName/ALP8310_LightsSettings.cs: 081abf54b8026a1bc5610b04f49efec6 -> 
+  custom:scripting/monoscript/fileName/ALP8310_GlobalLightingWindow.cs: 720efe349a8cd6da5c337fa335708088 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 47566dcab26e43e153544d45adc41b55 -> 
