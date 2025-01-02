@@ -4,111 +4,180 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-   public enum Axel
+  public enum CarType
     {
-        Front,
-        Rear
+        FrontWheelDrive,
+        RearWheelDrive,
+        FourWheelDrive
+    }
+    public CarType carType = CarType.FrontWheelDrive;
+
+    public enum ControlMode
+    {
+        Keyboard,
+        Button
     }
 
-    [Serializable]
-    public struct Wheel
-    {
-        public GameObject wheelModel;
-        public WheelCollider wheelCollider;
-        public Axel axel;
-    }
+    public ControlMode control;
 
-    public float maxAcceleration = 80.0f;
-    public float brakeAcceleration = 100.0f;
+    [Header("Wheel GameObject Meshes")]
+    public GameObject FrontWheelLeft;
+    public GameObject FrontWheelRight;
+    public GameObject BackWheelLeft;
+    public GameObject BackWheelRight;
 
-    public float turnSensitivity = 1.0f;
-    public float maxStearingAngle = 30.0f;
+    [Header("WheelCollider")]
+    public WheelCollider FrontWheelLeftCollider;
+    public WheelCollider FrontWheelRightCollider;
+    public WheelCollider BackWheelLeftCollider;
+    public WheelCollider BackWheelRightCollider;
 
-    public Vector3 _centerOfMass;
-
-    public List<Wheel> wheels;
-
-    float moveInput;
-    float steerInput;
-
-    private Rigidbody carRb;
+    [Header("Movement, Steering and Braking")]
+    private float currentSpeed;
+    public float maximumMotorTorque;
+    public float maximumSteeringAngle=20f;
+    public float maximumSpeed;
+    public float brakePower;
+    public Transform COM;
+    private float carSpeed;
+    private float carSpeedConverted;
+    private float motorTorque;
+    private float tireAngle;
+    private float vertical = 0f;
+    private float horizontal = 0f;
+    private bool handBrake = false;
+    private Rigidbody carRigidBody;
 
     void Start()
     {
-        carRb = GetComponent<Rigidbody>();
-        carRb.centerOfMass = _centerOfMass - new Vector3(0, 0.5f, 0);
+        carRigidBody = GetComponent<Rigidbody>();
+
+        if(carRigidBody != null)
+        {
+            carRigidBody.centerOfMass = COM.localPosition;
+        }
+
     }
 
     void Update()
     {
         GetInputs();
-        AnimatedWheels();
-    }
+        CalculateCarMovement();
+        CalculateSteering();
 
-    void LateUpdate()
-    {
-        Move();
-        Steer();
-        Brake();
+        ApplyTranformToWheels();
     }
 
     void GetInputs()
     {
-        moveInput = Input.GetAxis("Vertical");
-        steerInput = Input.GetAxis("Horizontal");
-    }
-
-    void Move()
-    {
-        foreach(var wheel in wheels)
+        if(control == ControlMode.Keyboard)
         {
-            wheel.wheelCollider.motorTorque = moveInput * 1000 * maxAcceleration * Time.deltaTime;
+            horizontal = Input.GetAxis("Horizontal");
+            vertical = Input.GetAxis("Vertical");
         }
     }
 
-    void Steer()
+    void CalculateCarMovement()
     {
-        // Calculate a speed-sensitive steering angle to avoid tipping
-        float speedFactor = Mathf.Clamp01(carRb.velocity.magnitude / 50.0f);  // Adjust 50.0f as needed
-        float adjustedSteeringAngle = maxStearingAngle * (1 - speedFactor);
+        carSpeed = carRigidBody.velocity.magnitude;
+        carSpeedConverted = Mathf.Round(carSpeed * 3.6f);
 
-        foreach (var wheel in wheels)
-        {
-            if (wheel.axel == Axel.Front)
-            {
-                var targetSteerAngle = steerInput * turnSensitivity * adjustedSteeringAngle;
-                wheel.wheelCollider.steerAngle = Mathf.Lerp(wheel.wheelCollider.steerAngle, targetSteerAngle, 0.6f);
-            }
-        }
-    }
-
-    void Brake()
-    {
+        //braking
         if (Input.GetKey(KeyCode.Space))
         {
-            foreach(var wheel in wheels)
-            {
-                wheel.wheelCollider.brakeTorque = 2000 * brakeAcceleration;
-            }
+            handBrake = true;
         }
         else
         {
-            foreach(var wheel in wheels)
+            handBrake = false;
+        }
+        if (handBrake)
+        {
+            motorTorque = 0;
+            ApplyBrake();
+        }
+        else
+        {
+            ReleaseBrake();
+            if (carSpeedConverted < maximumSpeed)
             {
-                wheel.wheelCollider.brakeTorque = 0;
+                motorTorque = maximumMotorTorque * vertical;
             }
+            else
+            {
+                motorTorque = 0;
+            }
+        }
+
+        ApplyMotorTorque();
+    }
+
+    void CalculateSteering()
+    {
+        float speedFactor = Mathf.Clamp01(carSpeed / maximumSpeed);
+        float reducedSteeringAngle = Mathf.Lerp(maximumSteeringAngle, maximumSteeringAngle / 2, speedFactor);
+        tireAngle = maximumSteeringAngle * horizontal;
+        FrontWheelLeftCollider.steerAngle = tireAngle;
+        FrontWheelRightCollider.steerAngle = tireAngle;
+    }
+
+
+    void ApplyMotorTorque()
+    {
+        if(carType == CarType.FrontWheelDrive)
+        {
+            FrontWheelLeftCollider.motorTorque = motorTorque;
+            FrontWheelRightCollider.motorTorque = motorTorque;
+        }
+        else if (carType == CarType.RearWheelDrive)
+        {
+            BackWheelLeftCollider.motorTorque = motorTorque;
+            BackWheelRightCollider.motorTorque = motorTorque;
+        }
+        else if (carType == CarType.FourWheelDrive)
+        {
+            FrontWheelLeftCollider.motorTorque = motorTorque;
+            FrontWheelRightCollider.motorTorque = motorTorque;
+            BackWheelLeftCollider.motorTorque = motorTorque;
+            BackWheelRightCollider.motorTorque = motorTorque;
         }
     }
 
-    void AnimatedWheels()
+    void ApplyBrake()
     {
-        foreach(var wheel in wheels)
-        {
-            Quaternion rot;
-            Vector3 pos;
-            wheel.wheelCollider.GetWorldPose(out pos, out rot);
-            wheel.wheelModel.transform.position = pos;
-            wheel.wheelModel.transform.rotation = rot;
-        }
+        FrontWheelLeftCollider.brakeTorque = brakePower;
+        FrontWheelRightCollider.brakeTorque = brakePower;
+        BackWheelLeftCollider.brakeTorque = brakePower;
+        BackWheelRightCollider.brakeTorque = brakePower;
+    }
+
+    void ReleaseBrake()
+    {
+        FrontWheelLeftCollider.brakeTorque = 0;
+        FrontWheelRightCollider.brakeTorque = 0;
+        BackWheelLeftCollider.brakeTorque = 0;
+        BackWheelRightCollider.brakeTorque = 0;
+    }
+
+    public void ApplyTranformToWheels()
+    {
+        Vector3 position;
+        Quaternion rotation;
+
+        FrontWheelLeftCollider.GetWorldPose(out position, out rotation);
+        FrontWheelLeft.transform.position = position;
+        FrontWheelLeft.transform.rotation = rotation;
+
+        FrontWheelRightCollider.GetWorldPose(out position, out rotation);
+        FrontWheelRight.transform.position = position;
+        FrontWheelRight.transform.rotation = rotation;
+
+        BackWheelLeftCollider.GetWorldPose(out position, out rotation);
+        BackWheelLeft.transform.position = position;
+        BackWheelLeft.transform.rotation = rotation;
+
+        BackWheelRightCollider.GetWorldPose(out position, out rotation);
+        BackWheelRight.transform.position = position;
+        BackWheelRight.transform.rotation = rotation;
     }
 }
