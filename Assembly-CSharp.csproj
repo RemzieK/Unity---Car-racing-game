@@ -64,9 +64,12 @@
     <Compile Include="Assets\Scripts\Speedometer.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\Scripts\LapComplete.cs" />
+    <Compile Include="Assets\Scripts\FinishCubeRotate.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\GameOverPanelManager.cs" />
     <Compile Include="Assets\Scripts\CountDown.cs" />
     <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
+    <Compile Include="Assets\Scripts\RaceFinish.cs" />
     <Compile Include="Assets\Scripts\CarControlActive.cs" />
   </ItemGroup>
   <ItemGroup>

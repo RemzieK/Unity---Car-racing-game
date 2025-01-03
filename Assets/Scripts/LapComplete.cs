@@ -16,35 +16,62 @@ public class LapComplete : MonoBehaviour
     public TMP_Text LapCounter;
     public int LapsDone;
 
+    public GameObject RaceFinish;
+
+    public GameOverPanelManager GameOverPanelManager;  // Reference to the GameOverPanelManager
+
+    private float raceTime;
+
     void OnTriggerEnter()
     {
         LapsDone += 1;
-        if(LapTimeManager.SecondCount <= 9)
+
+        // Calculate the current lap time
+        raceTime = LapTimeManager.MinuteCount * 60 + LapTimeManager.SecondCount + LapTimeManager.MiliCount / 10f;
+
+        // Update best lap time
+        LapTimeManager.UpdateBestLapTime(raceTime);
+
+        // Update lap time displays
+        UpdateLapDisplay();
+
+        // Reset lap time for the next lap
+        ResetLapTime();
+
+        // Update lap counter
+        LapCounter.text = " " + LapsDone;
+
+        // Toggle triggers
+        HalfLapTrig.SetActive(true);
+        LapCompleteTrig.SetActive(false);
+
+        // Check if race is complete
+        if (LapsDone >= 3)
         {
-            SecondDisplay.text = "0" + LapTimeManager.SecondCount + ".";
-        }
-        else
-        {
-            SecondDisplay.text = "" + LapTimeManager.SecondCount + ".";
+            RaceFinish.SetActive(true);
+            LapTimeManager.RaceFinished = true;
+            GameOverPanelManager.ShowGameOverPanel(raceTime);
         }
 
-        if(LapTimeManager.MinuteCount <= 9)
+        // Play finish audio
+        AudioSource finishAudio = RaceFinish.GetComponent<AudioSource>();
+        if (finishAudio != null)
         {
-            MinuteDisplay.text = "0" + LapTimeManager.MinuteCount + ".";
+            finishAudio.Play();
         }
-        else
-        {
-            MinuteDisplay.text = "" + LapTimeManager.MinuteCount + ".";
-        }
+    }
 
+    private void UpdateLapDisplay()
+    {
+        SecondDisplay.text = LapTimeManager.SecondCount <= 9 ? $"0{LapTimeManager.SecondCount}." : $"{LapTimeManager.SecondCount}.";
+        MinuteDisplay.text = LapTimeManager.MinuteCount <= 9 ? $"0{LapTimeManager.MinuteCount}." : $"{LapTimeManager.MinuteCount}.";
         MiliDisplay.text = Mathf.Floor(LapTimeManager.MiliCount).ToString("0");
+    }
 
+    private void ResetLapTime()
+    {
         LapTimeManager.MinuteCount = 0;
         LapTimeManager.SecondCount = 0;
         LapTimeManager.MiliCount = 0;
-        LapCounter.text = " " + LapsDone;
-
-        HalfLapTrig.SetActive(true);
-        LapCompleteTrig.SetActive(false);
     }
 }

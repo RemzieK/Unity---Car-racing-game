@@ -359,9 +359,12 @@
 "Assets/Scripts/CarControlActive.cs"
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/CountDown.cs"
+"Assets/Scripts/FinishCubeRotate.cs"
+"Assets/Scripts/GameOverPanelManager.cs"
 "Assets/Scripts/HalfPointTrigger.cs"
 "Assets/Scripts/LapComplete.cs"
 "Assets/Scripts/LapTimeManager.cs"
+"Assets/Scripts/RaceFinish.cs"
 "Assets/Scripts/Speedometer.cs"
 -langversion:9.0
 /deterministic
